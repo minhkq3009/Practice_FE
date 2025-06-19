@@ -8,23 +8,25 @@ export default function ArticleDetail() {
   return (
     <>
       <Header />
-      <div className="w-full">
-        <img
-          src="/featured.png"
-          alt="Feature"
-          className="w-full h-full object-cover"
-        />
-      </div>
       <article className="max-w-3xl mx-auto px-4 py-12 text-gray-800">
-        {/* Title */}
-        <h1 className="text-3xl md:text-5xl font-bold font-serif mb-2 leading-snug">
-          A few words about this blog platform, Ghost, and how this site was made
-        </h1>
+        {/* Title & Subtitle with center alignment and updated font sizes */}
+        <div className="text-center max-w-4xl mx-auto">
+          <h1 className="text-[36px] md:text-[54px] font-bold font-serif mb-2 leading-snug">
+            A few words about this blog platform, Ghost, and how this site was made
+          </h1>
 
-        {/* Subtitle */}
-        <p className="text-sm text-gray-500 mb-8">
-          Why Ghost (& Figma) instead of Medium, WordPress or other options?
-        </p>
+          <p className="text-[16px] md:text-[20px] text-gray-500 mb-8">
+            Why Ghost (& Figma) instead of Medium, WordPress or other options?
+          </p>
+        </div>
+
+        <div className="w-screen relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] mb-8">
+          <img
+            src="/featured.png"
+            alt="Feature"
+            className="w-full h-full object-cover"
+          />
+        </div>
 
         {/* Meta */}
         <div className="flex items-center gap-4 mb-6 text-sm text-gray-500">
