@@ -8,7 +8,7 @@ export default function ArticleDetail() {
   return (
     <>
       <Header />
-      <article className="max-w-3xl mx-auto px-4 py-12 text-gray-800">
+      <article className="max-w-3xl mx-auto px-4 py-12 text-gray-800 text-base">
         {/* Title & Subtitle with center alignment and updated font sizes */}
         <div className="text-center max-w-4xl mx-auto">
           <h1 className="text-[36px] md:text-[54px] font-bold font-serif mb-2 leading-snug">
