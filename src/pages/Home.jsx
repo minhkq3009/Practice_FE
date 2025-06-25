@@ -18,7 +18,7 @@ export default function Home() {
               key={index+1}
               image={a.image}
               title={a.title}
-              slug={a.slug} // chỉ bài đầu có slug
+              slug={a.slug}
             />
           ))}
           </div>

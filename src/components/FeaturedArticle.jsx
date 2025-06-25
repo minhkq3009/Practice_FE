@@ -8,7 +8,7 @@ export default function FeaturedArticle() {
           <img
             src="/featured.png"
             alt="Featured"
-            className="w-full h-auto rounded-lg cursor-pointer"
+            className="w-full h-auto cursor-pointer"
           />
           <h2 className="font-bold mt-8 text-[36px] md:text-[54px] hover:underline cursor-pointer">
             A few words about this blog platform, Ghost, and how this site was made
