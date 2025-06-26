@@ -14,7 +14,7 @@ export default function Header() {
   const isActive = (href) => path === href ? 'text-black font-semibold' : 'text-gray-500 hover:text-black';
 
   return (
-    <header className="flex justify-between items-center py-10 px-[60px] border-b relative">
+    <header className="flex justify-between items-center py-6 px-5 md:py-10 md:px-[60px] border-b relative">
       <a href="/">
         <img src="/logo.svg" alt="Logo" className="w-56 h-auto cursor-pointer" />
       </a>
