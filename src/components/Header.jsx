@@ -18,7 +18,7 @@ export default function Header() {
       <a href="/">
         <img src="/logo.svg" alt="Logo" className="w-56 h-auto cursor-pointer" />
       </a>
-      <nav className="hidden md:flex gap-6 text-sm uppercase">
+      <nav className="hidden md:flex gap-6 text-[20px] uppercase">
         <a href="/" className={isActive('/')}>Blog</a>
         <a href="/about" className={isActive('/about')}>About</a>
         <a href="/projects" className={isActive('/projects')}>Projects</a>
