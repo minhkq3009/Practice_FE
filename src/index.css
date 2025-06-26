@@ -2,3 +2,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Krona+One&family=Lora&family=Space+Grotesk&display=swap');
+
+@font-face {
+  font-family: 'Nokia Cellphone FC';
+  src: url('/fonts/nokiafc22.ttf') format('truetype');
+}
