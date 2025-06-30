@@ -68,7 +68,7 @@ export default function ReadMePage() {
             Fonts used on the live site
           </h2>
 
-          <div className="border-l-4 border-black pl-4 space-y-6">
+          <div className="border-l-4 border-black pl-4 space-y-[56px]">
         <p className="text-[20px]">
           Just for reference or if you're interested, I list here the typefaces I’m using on in the live site at
           <a
