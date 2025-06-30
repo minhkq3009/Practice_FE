@@ -32,7 +32,7 @@ export default function ReadMePage() {
           <h2 className="text-[44px] font-bold mb-[26px]">
             How this file can be used
           </h2>
-          <p className="border-l-4 border-black pl-4 text-[20px]">
+          <p className="border-l-4 border-black pl-[30px] text-[20px]">
             Feel free to use this file in any way you want, you can edit a copy
             of this file as much as you want for non-commercial or commercial
             purposes. It’s not necessary, but if you want, you can ping me at
@@ -47,7 +47,7 @@ export default function ReadMePage() {
           <h2 className="text-[44px] font-bold mb-[26px]">
             A note about typefaces
           </h2>
-          <p className="border-l-4 border-black pl-4 text-[20px]">
+          <p className="border-l-4 border-black pl-[30px] text-[20px]">
             This file is using platform-native typefaces for iOS & macOS,
             designed by Apple. To make texts editable, you can download the
             typefaces at
@@ -68,7 +68,7 @@ export default function ReadMePage() {
             Fonts used on the live site
           </h2>
 
-          <div className="border-l-4 border-black pl-4 space-y-[56px]">
+          <div className="border-l-4 border-black pl-[30px] space-y-[56px]">
         <p className="text-[20px]">
           Just for reference or if you're interested, I list here the typefaces I’m using on in the live site at
           <a
