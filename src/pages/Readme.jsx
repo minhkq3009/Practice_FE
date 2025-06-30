@@ -29,7 +29,7 @@ export default function ReadMePage() {
       >
         {/* Section 1 */}
         <section>
-          <h2 className="text-[44px] font-bold mb-[26px]">
+          <h2 className="text-[44px] font-display font-bold mb-[26px]">
             How this file can be used
           </h2>
           <p className="border-l-4 border-black pl-[30px] text-[20px]">
@@ -44,7 +44,7 @@ export default function ReadMePage() {
 
         {/* Section 2 */}
         <section>
-          <h2 className="text-[44px] font-bold mb-[26px]">
+          <h2 className="text-[44px] font-display font-bold mb-[26px]">
             A note about typefaces
           </h2>
           <p className="border-l-4 border-black pl-[30px] text-[20px]">
@@ -64,7 +64,7 @@ export default function ReadMePage() {
 
         {/* Section 3 */}
         <section>
-          <h2 className="text-[44px] font-bold mb-[26px]">
+          <h2 className="text-[44px] font-display font-bold mb-[26px]">
             Fonts used on the live site
           </h2>
 
