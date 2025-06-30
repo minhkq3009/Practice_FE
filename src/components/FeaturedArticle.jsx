@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 export default function FeaturedArticle() {
   return (
-    <section className="text-center px-4 py-12 pb-0">
+    <section className="text-center px-4 md:px-0 py-12 pb-0">
       <div className="mx-auto w-full max-w-3xl">
         <Link to="/article/ghost-platform">
           <img
