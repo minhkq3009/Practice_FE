@@ -10,11 +10,11 @@ export default function FeaturedArticle() {
             alt="Featured"
             className="w-full h-auto cursor-pointer"
           />
-          <h2 className="font-bold mt-8 text-[36px] md:text-[54px] hover:underline cursor-pointer">
+          <h2 className="font-newyork font-bold mt-[32px] md:mt-[44px] text-[36px] md:text-[54px] hover:underline cursor-pointer mb-[24px] md:mb-[32px]">
             A few words about this blog platform, Ghost, and how this site was made
           </h2>
         </Link>
-        <p className="mt-2 text-[20px]">
+        <p className="text-[16px] md:text-[20px] text-gray-600 font-sfmono md:max-w-[30vw] mx-auto text-center mb-[32px] md:mb-[44px]">
           Why Ghost (& Figma) instead of Medium, WordPress or other options?
         </p>
         <hr className="mt-[34px] mb-0 border-t border-gray-900 w-full" />
